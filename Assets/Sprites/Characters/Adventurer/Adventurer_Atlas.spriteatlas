@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Adventurer_Atlas
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    packedHash:
+      serializedVersion: 2
+      Hash: eb77fdc61aa43c18c75ee2d0f747a3b5
+    variantMultiplier: 1
+    bindAsDefault: 1
+    finalFormat: 4
+    hashString: eb77fdc61aa43c18c75ee2d0f747a3b5
+    totalSpriteSurfaceArea: 211200
+    packables:
+    - {fileID: 102900000, guid: 921a2ca83d5b1c14e84e54b2c20e1bfe, type: 3}
+    packedSpriteRenderDataKeys:
+    - f0f346110cda89144b21390f6e498576: 21300000
+    - 56e3ad22ccb63644db83c5cc4d2d3e4b: 21300000
+    - f9e95e39e6320d54abacbc1c5956947d: 21300000
+    - 8bd462393b2ec2f48a01e5ca529b9321: 21300000
+    - 6897cc1ec70092a4786508f92487971e: 21300000
+    - 073bc1c942ecee54db0f4e630b9f8a53: 21300000
+    - ed584324369fcd34ea4b67171826cecc: 21300000
+    - 405c524e0057d7449ae86eeb58694783: 21300000
+    - 443aff47de9df2345852e1b2f15dfc24: 21300000
+    - 8e1a1a819712fda42a964ca9b05a247d: 21300000
+    - 5a0fba8a0a074054c9c2f2fd25c89227: 21300000
+    - a9f5d372f0eddcb40a1b78fc8bd3fe37: 21300000
+    - aa4f29380982cf549ac999bdeb08b850: 21300000
+    - 60af52a708db1004b996a06c5306c0fa: 21300000
+    - 427dccb21b327344ebd85788633c8742: 21300000
+    - 04409d3b58847674cb77a14469841a3c: 21300000
+    - d1831dd445b9bab4f9813e15d475c4b7: 21300000
+    - 2e12fa9dd4d3f124f90b9f1680aa4848: 21300000
+    - da8a5a529f4b5a041ae8d07b250b8fe5: 21300000
+    - 133700ef581948b4fbd86d9dcf8787e0: 21300000
+    - fca2eab6776907749a021ba95b7bbab1: 21300000
+    - 6c9aeca7e706a61409f7fe8242b9274d: 21300000
+    - 3b2058c1b3b9fa546b7a5d5cfb1e6c5c: 21300000
+    - a4244a49ee9d71d42a450d623c0aac80: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f0f346110cda89144b21390f6e498576, type: 3}
+  - {fileID: 21300000, guid: 56e3ad22ccb63644db83c5cc4d2d3e4b, type: 3}
+  - {fileID: 21300000, guid: f9e95e39e6320d54abacbc1c5956947d, type: 3}
+  - {fileID: 21300000, guid: 8bd462393b2ec2f48a01e5ca529b9321, type: 3}
+  - {fileID: 21300000, guid: 6897cc1ec70092a4786508f92487971e, type: 3}
+  - {fileID: 21300000, guid: 073bc1c942ecee54db0f4e630b9f8a53, type: 3}
+  - {fileID: 21300000, guid: ed584324369fcd34ea4b67171826cecc, type: 3}
+  - {fileID: 21300000, guid: 405c524e0057d7449ae86eeb58694783, type: 3}
+  - {fileID: 21300000, guid: 443aff47de9df2345852e1b2f15dfc24, type: 3}
+  - {fileID: 21300000, guid: 8e1a1a819712fda42a964ca9b05a247d, type: 3}
+  - {fileID: 21300000, guid: 5a0fba8a0a074054c9c2f2fd25c89227, type: 3}
+  - {fileID: 21300000, guid: a9f5d372f0eddcb40a1b78fc8bd3fe37, type: 3}
+  - {fileID: 21300000, guid: aa4f29380982cf549ac999bdeb08b850, type: 3}
+  - {fileID: 21300000, guid: 60af52a708db1004b996a06c5306c0fa, type: 3}
+  - {fileID: 21300000, guid: 427dccb21b327344ebd85788633c8742, type: 3}
+  - {fileID: 21300000, guid: 04409d3b58847674cb77a14469841a3c, type: 3}
+  - {fileID: 21300000, guid: d1831dd445b9bab4f9813e15d475c4b7, type: 3}
+  - {fileID: 21300000, guid: 2e12fa9dd4d3f124f90b9f1680aa4848, type: 3}
+  - {fileID: 21300000, guid: da8a5a529f4b5a041ae8d07b250b8fe5, type: 3}
+  - {fileID: 21300000, guid: 133700ef581948b4fbd86d9dcf8787e0, type: 3}
+  - {fileID: 21300000, guid: fca2eab6776907749a021ba95b7bbab1, type: 3}
+  - {fileID: 21300000, guid: 6c9aeca7e706a61409f7fe8242b9274d, type: 3}
+  - {fileID: 21300000, guid: 3b2058c1b3b9fa546b7a5d5cfb1e6c5c, type: 3}
+  - {fileID: 21300000, guid: a4244a49ee9d71d42a450d623c0aac80, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - adventurer_walk1
+  - adventurer_walk2
+  - adventurer_stand
+  - adventurer_back
+  - adventurer_hang
+  - adventurer_jump
+  - adventurer_skid
+  - adventurer_kick
+  - adventurer_hurt
+  - adventurer_duck
+  - adventurer_hold1
+  - adventurer_hold2
+  - adventurer_action2
+  - adventurer_action1
+  - adventurer_slide
+  - adventurer_talk
+  - adventurer_cheer1
+  - adventurer_cheer2
+  - adventurer_climb1
+  - adventurer_climb2
+  - adventurer_swim1
+  - adventurer_swim2
+  - adventurer_idle
+  - adventurer_fall
+  m_Tag: Adventurer_Atlas
+  m_IsVariant: 0
