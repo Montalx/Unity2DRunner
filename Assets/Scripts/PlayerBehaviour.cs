@@ -69,9 +69,9 @@ public class PlayerBehaviour : MonoBehaviour
         //Saltar
 
         //Animaciones
-        anim.SetBool("isGrounded", collisions.isGrounded);
+       /* anim.SetBool("isGrounded", collisions.isGrounded);
         anim.SetFloat("speedX", Mathf.Abs(rb.velocity.x));
-        anim.SetFloat("speedY", Mathf.Abs(rb.velocity.y));
+        anim.SetFloat("speedY", Mathf.Abs(rb.velocity.y));*/
     }
 
     private void FixedUpdate()
