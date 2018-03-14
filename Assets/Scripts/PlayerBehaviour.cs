@@ -33,7 +33,7 @@ public class PlayerBehaviour : MonoBehaviour
     //public Transform flipTransform;
     [Header("Graphics")]
     public SpriteRenderer rend;
-    private Animator anim;
+    public Animator anim;
 
     void Start()
     {
@@ -64,14 +64,14 @@ public class PlayerBehaviour : MonoBehaviour
 
     void DefaultUpdate()
     {
-        //Calcule el movimiento en horizontal
         HorizontalMovement();
-        //Saltar
 
         //Animaciones
-       /* anim.SetBool("isGrounded", collisions.isGrounded);
-        anim.SetFloat("speedX", Mathf.Abs(rb.velocity.x));
+        //anim.SetBool("isGrounded", collisions.isGrounded);
+        /*anim.SetFloat("speedX", Mathf.Abs(rb.velocity.x));
         anim.SetFloat("speedY", Mathf.Abs(rb.velocity.y));*/
+        anim.SetBool("isGrounded", collisions.isGrounded);
+
     }
 
     private void FixedUpdate()
@@ -83,6 +83,8 @@ public class PlayerBehaviour : MonoBehaviour
             isJumping = false;
             rb.velocity = new Vector2(rb.velocity.x, 0);
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            //anim.SetBool("isJumping", isJumping);
+
         }
         //Aplicaremos el movimiento
         rb.velocity = new Vector2(horizontalSpeed, rb.velocity.y);
@@ -134,6 +136,7 @@ public class PlayerBehaviour : MonoBehaviour
     {
         jumpForce = force;
         isJumping = true;
+
     }
     void Flip()
     {

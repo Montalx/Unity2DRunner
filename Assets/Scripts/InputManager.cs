@@ -5,6 +5,7 @@ using UnityEngine;
 public class InputManager : MonoBehaviour
 {
     private PlayerBehaviour player;
+    public Animator anim;
     // Use this for initialization
     void Start()
     {
@@ -40,7 +41,11 @@ public class InputManager : MonoBehaviour
 
     void InputJump()
     {
-        if(Input.GetButtonDown("Jump")) player.JumpStart();
+        if(Input.GetButtonDown("Jump"))
+        {
+            player.JumpStart();
+            //anim.SetTrigger("Jump");
+        }
     }
 
     void InputSpeed()

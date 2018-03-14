@@ -7,14 +7,14 @@ using UnityEngine;
 public class PickUpLoot : MonoBehaviour
 {
 
-    Currency currentGold;
+    public Currency currentGold;
     public AudioClip coinFx;
 
     public int addAmount;
 
     void Start()
     {
-        currentGold = GameObject.FindGameObjectWithTag("GameController").GetComponent<Currency>();
+        //currentGold = GameObject.FindGameObjectWithTag("GameController").GetComponent<Currency>();
     }
 
     void OnTriggerEnter2D(Collider2D obj)
