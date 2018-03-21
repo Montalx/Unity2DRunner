@@ -15,6 +15,7 @@ public class PlatformGenerator : MonoBehaviour
     public float distanceMax;
 
 
+
     // Use this for initialization
     void Start ()
     {
