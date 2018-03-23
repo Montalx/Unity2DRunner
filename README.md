@@ -1,10 +1,8 @@
 # InfiniteRunner
 
 
-### *Game developed by [Álvaro Santisteban](https://github.com/Montalx) & [Vladic Cebanu](https://github.com/kalyer)*  
+### *Game developed by [Álvaro Santisteban](https://github.com/Montalx) & [Vladic Cebanu](https://github.com/kalyer) as Fun Lab Games Studio*  
       
-    
-![FunLabGames](WikiResources/Jimmy_Journey.png)
 
 ## Project description
 
