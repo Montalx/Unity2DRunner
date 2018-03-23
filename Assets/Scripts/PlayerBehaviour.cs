@@ -26,6 +26,10 @@ public class PlayerBehaviour : MonoBehaviour
     public float jumpWalkForce;
     public float jumpRunForce;
     public float jumpForce;
+
+    public float jumpTime;
+    public float jumpTimeCounter;
+
     [Header("Movement")]
     public Vector2 axis;
     public float horizontalSpeed;
@@ -35,6 +39,8 @@ public class PlayerBehaviour : MonoBehaviour
     public SpriteRenderer rend;
     public Animator anim;
 
+    public AudioSource jumpFx;
+
     void Start()
     {
         collisions = GetComponent<CollisionsFinal>();
@@ -43,6 +49,8 @@ public class PlayerBehaviour : MonoBehaviour
         collisions.MyStart();
 
         isFacingRight = true;
+
+        jumpTimeCounter = jumpTime;
     }
 
     // Update is called once per frame
@@ -81,8 +89,17 @@ public class PlayerBehaviour : MonoBehaviour
         if (isJumping)
         {
             isJumping = false;
-            rb.velocity = new Vector2(rb.velocity.x, 0);
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+
+            if(jumpTimeCounter > 0)
+            {
+                jumpFx.Play();
+
+                rb.velocity = new Vector2(rb.velocity.x, 0);
+                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                jumpTimeCounter -= Time.deltaTime;
+
+
+            }
             //anim.SetBool("isJumping", isJumping);
 
         }
@@ -159,7 +176,8 @@ public class PlayerBehaviour : MonoBehaviour
         {
             if (collisions.isGrounded)
             {
-                if (running) Jump(jumpRunForce);
+
+                if(running) Jump(jumpRunForce);
                 else Jump(jumpWalkForce);
             }
         }

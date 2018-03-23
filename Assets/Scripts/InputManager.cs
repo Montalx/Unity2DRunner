@@ -6,6 +6,7 @@ public class InputManager : MonoBehaviour
 {
     private PlayerBehaviour player;
     public Animator anim;
+
     // Use this for initialization
     void Start()
     {
@@ -43,6 +44,7 @@ public class InputManager : MonoBehaviour
     {
         if(Input.GetButtonDown("Jump"))
         {
+
             player.JumpStart();
             //anim.SetTrigger("Jump");
         }

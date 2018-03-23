@@ -10,7 +10,7 @@ public class CoinFx : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
-		
+        //Fx = GameObject.FindObjectOfType<Coin>
 	}
 	
 	// Update is called once per frame
@@ -27,7 +27,9 @@ public class CoinFx : MonoBehaviour
             var effect = Instantiate(Fx, transform.position, transform.rotation);
 
             Destroy(effect.gameObject, 2);
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            gameObject.SetActive(false);
+
         }
     }
 

@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1549000751936426}
   m_LocalRotation: {x: -0, y: -0, z: 0.24446538, w: 0.969658}
-  m_LocalPosition: {x: -5.14, y: 1.39, z: 0}
+  m_LocalPosition: {x: 222, y: -116, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,7 +83,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentGold: {fileID: 0}
   coinFx: {fileID: 0}
-  addAmount: 10
+  addAmount: 50
 --- !u!212 &212621115900694442
 SpriteRenderer:
   m_ObjectHideFlags: 1
