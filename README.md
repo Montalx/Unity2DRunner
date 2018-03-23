@@ -21,5 +21,5 @@
 
 ## License  
 
-Courrent license of the project is [MIT License](https://github.com/Raist3D/PlatformGame/wiki/License) 
+Courrent license of the project is [MIT License](https://github.com/Montalx/Unity2DRunner/blob/master/LICENSE) 
 
