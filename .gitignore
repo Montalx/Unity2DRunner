@@ -32,3 +32,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Assets/TextMesh Pro.meta
+Assets/Sprites/Characters/Player/Player_Atlas.spriteatlas
